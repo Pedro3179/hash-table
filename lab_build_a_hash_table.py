@@ -1,3 +1,14 @@
+'''
+Build a hash table from scratch. A hash table is a data structure that stores key-value pairs.
+A hash table works by taking the key as an input and then hashing this key according
+to a specific hashing function.
+
+For the purpose of this lab, the hashing function will be simple: it will sum
+the Unicode values of each character in the key. The hash value will then be used
+as the actual key to store the associated value. The same hash value would also be used
+to retrieve and delete the value associated with the key.
+'''
+
 class HashTable:
     def __init__(self):
         self.collection={}
